@@ -20,10 +20,11 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/pointfreeco"
 
   s.source = {
+    
     :git => "https://github.com/pointfreeco/swift-snapshot-testing.git",
     :tag => s.version
   }
-
+  s.dependency 'SnapshotTesting'
   s.swift_versions = "5.0", "5.1.2"
 
   s.ios.deployment_target = "11.0"
