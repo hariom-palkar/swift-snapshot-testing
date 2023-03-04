@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
     :git => "https://github.com/pointfreeco/swift-snapshot-testing.git",
     :tag => s.version
   }
-  s.dependency 'SnapshotTesting'
 
   s.ios.deployment_target = "11.0"
   s.osx.deployment_target = "10.13"
